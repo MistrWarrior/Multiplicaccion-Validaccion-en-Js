@@ -1,0 +1,43 @@
+/* Aplicamos un estilo global para el body */
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+}
+
+/* Aplicamos estilo para el encabezado h1 */
+h1 {
+color: #333;
+text-align: center;
+margin-top: 20px;
+}
+
+/* Aplicamos un estilo para los input */
+input[type="text"] {
+width: 200px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+/* Aplicamos estilo al botón */
+button {
+display: block;
+margin: 0 auto;
+padding: 10px 20px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 0 5px cyan,
+0 0 25px cyan;
+}
+
+/* Estilo para el botón al pasar el mouse sobre él */
+button:hover {
+background-color: #3e8e41,
+0 0 25 px cyan, 0 0 50 px cyan,
+ 0 0 100px cyan, 0 0 200px cyan;  
+}
+
